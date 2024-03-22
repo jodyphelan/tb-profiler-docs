@@ -1,0 +1,40 @@
+site_name: 'TB-Profiler'
+docs_dir: '../../docs/fr'                  
+site_dir: '../../build/fr'                 
+
+repo_url: https://github.com/jodyphelan/TBProfiler
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  
+theme:
+  name: material
+  language: fr
+
+extra:
+  alternate:
+    - name: English
+      link: https://jodyphelan.github.io/TBProfiler/en/
+      lang: en
+    - name: Português
+      link: https://jodyphelan.github.io/TBProfiler/pt/
+      lang: pt
+    - name: Français
+      link: https://jodyphelan.github.io/TBProfiler/fr/
+      lang: fr
+
+nav:
+    - Introduction: 'index.md'
+    - Installation: 'install-fr.md'
+    - Démarrage rapide: 'quickstart-fr.md'
+    - Bibliothèque de mutation: 'mutation-library-fr.md'
+    - Fichiers de sortie: 'output-files-fr.md'
+    - Mise à jour: 'updating-fr.md'
+    - Serveur web: 'webserver-fr.md'
+    - Windows: 'windows-fr.md'
+    - Citation: 'citation-fr.md'
+    - Execution sur plusieur echantillons: 'batch-run-fr.md'
+    - Scénarios d'assemblage personnalisés: 'custom-collate-fr.md'
