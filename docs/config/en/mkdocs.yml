@@ -9,7 +9,6 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - neoteroi.timeline
   
 theme:
   name: material
