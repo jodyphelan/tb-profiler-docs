@@ -164,4 +164,4 @@ The tbdb database will assume you have mapped your data to a reference with "Chr
 
 ## Watchlist
 
-There are some genes it may be of interest to record mutations even if we do not have any specific associated mutaitons. To allow this funcitonality we have included a "watchlist" file. To include genes just add them and the associated drug(s) to the watchlist.csv file.
+There are some genes it may be of interest to record mutations even if we do not have any specific associated mutaitons. To allow this funcitonality we have included a "watchlist" file. To include genes just add them and the associated drugs to the watchlist.csv file.
