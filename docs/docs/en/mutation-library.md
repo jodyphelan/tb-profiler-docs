@@ -52,7 +52,7 @@ The WHO catalogue is a comprehensive list of mutations associated with drug resi
 | capreomycin              | 9242               | 1027               | 0.79        | 0.97        | 0.78        | 0.97        |
 | clofazimine              | 12934              | 483                | 0.16        | 0.99        | 0.16        | 0.99        |
 | ethionamide              | 11783              | 2993               | 0.85        | 0.89        | 0.83        | 0.90        |
-| para-aminosalicylic_acid | 1123               | 102                | 0.39        | 0.95        | Not tested        | Not tested        |
+| PAS | 1123               | 102                | 0.39        | 0.95        | Not tested        | Not tested        |
 | cycloserine              | 960                | 157                | 0.29        | 0.97        | Not tested        | Not tested        |
 
 As can be seen, the tbdb library has a higher sensitivity for most drugs. This is because it contains mutations which are not in the WHO catalogue. However, this comes at the cost of a drop in specificity for some drugs. The largest difference can be seen for isoniazid, ethambutol and pyrazinamide. 
