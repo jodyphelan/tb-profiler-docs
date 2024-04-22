@@ -9,6 +9,7 @@ The pipeline uses [BWA](http://bio-bwa.sourceforge.net/) to map the reads to the
 ## Variant Calling
 
 Variants are called by one of the following tools:
+
 * [Freebayes](https://github.com/freebayes/freebayes) (default)
 * [GATK](https://software.broadinstitute.org/gatk/)
 * [bcftools](https://samtools.github.io/bcftools/bcftools.html)
