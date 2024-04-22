@@ -1,4 +1,12 @@
-# Variant Calling
+# Algorithm
+
+The pipeline is designed to predict the resistance profile of a given Mycobacterium tuberculosis sample. The pipeline is divided into a couple of steps:
+
+## Mapping
+
+The pipeline uses [BWA](http://bio-bwa.sourceforge.net/) to map the reads to the reference genome. The pipeline can also use [minimap2](https://github.com/lh3/minimap2) for nanopore reads. The pipeline will also use [samtools](http://www.htslib.org/) to mark duplicate reads in the resulting bam file.
+
+## Variant Calling
 
 Variants are called by one of the following tools:
 * [Freebayes](https://github.com/freebayes/freebayes) (default)
@@ -9,7 +17,7 @@ Variants are called by one of the following tools:
 
 Following the variant calling, the pipeline will annotate the variants using [SnpEff](http://snpeff.sourceforge.net/). 
 
-## Filtering
+## Variant filtering
 
 The pipeline will filter the variants based on the following parameters:
 

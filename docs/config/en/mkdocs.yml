@@ -30,6 +30,7 @@ nav:
     - Introduction: 'index.md'
     - Install: 'install.md'
     - Quickstart: 'quickstart.md'
+    - Algorithm: 'algorithm.md'
     - Mutation Library: 'mutation-library.md'
     - Lineages: 'lineages.md'
     - Output files: 'output-files.md'
